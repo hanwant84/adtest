@@ -1,0 +1,23 @@
+// ==UserScript==
+// @name         Clear countdown
+// @namespace    http://tampermonkey.net/
+// @version      0.2.2
+// @description  Clear countdown
+// @author       You
+// @match        https://tiktokcounter.net/*
+// @match        https://tpayr.xyz/*
+// @match        https://lifgam.online/*
+// @match        https://waezf.xyz/*
+// @match        https://poqzn.xyz/*
+// @match        https://rezsx.xyz/*
+// @match        https://tryzt.xyz/*
+// @match        https://rezst.xyz/*
+// @match        https://erzar.xyz/*
+
+// @grant        none
+// @run-at  document-end
+// ==/UserScript==
+
+(function() {
+setInterval(function(){window.wT9882=0;},1000);
+})();
